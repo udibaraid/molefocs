@@ -24,9 +24,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+
   cupertino_icons: ^1.0.2
-  flutter_svg: ^0.17.4
-  google_fonts: ^1.1.0
+  flutter_svg: ^1.1.1+1
+  google_fonts: ^3.0.1
+  
 
 dev_dependencies:
   flutter_test:
@@ -42,12 +44,9 @@ flutter:
   uses-material-design: true
 
   assets:
-      - assets/images/logo.png
-      - assets/images/home_bg.png
-      - assets/images/home_image1.jpg
-      - assets/images/top_header.png
-      - assets/icons/logo.png
-
+  - assets/images/
+  - assets/svg/
+ 
   fonts:
       - family: Montserrat Regular
         fonts:

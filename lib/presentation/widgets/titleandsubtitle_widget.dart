@@ -11,9 +11,9 @@ class TitleAndSubtitle extends StatelessWidget {
     return Row(
       children: <Widget>[
         Padding(
-          padding: const EdgeInsets.only(left: 20, top: 15.0),
+          padding: const EdgeInsets.only(left: 30, top: 20.0),
           child: SizedBox(
-            height: tinggiAll * 0.1,
+            height: tinggiAll * 0.09,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const <Widget>[
@@ -22,7 +22,7 @@ class TitleAndSubtitle extends StatelessWidget {
                   style: TextStyle(
                       fontFamily: "OpenSans Bold",
                       color: Colors.black,
-                      fontSize: 16),
+                      fontSize: 18),
                 ),
                 SizedBox(
                   height: 2.0,

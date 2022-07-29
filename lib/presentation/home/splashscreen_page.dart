@@ -1,7 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:molefocs/presentation/style/color.dart';
-import 'package:molefocs/presentation/home/home_page.dart';
+
+import 'homepage.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({Key? key}) : super(key: key);
@@ -34,7 +35,7 @@ class _SplashPageState extends State<SplashPage> {
       body: Container(
         height: tinggiAll,
         width: lebarAll,
-        color: AppColor.secondaryColor,
+        color: AppColor.warnaBiru,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,

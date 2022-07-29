@@ -8,7 +8,7 @@ class InformationWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final tinggiAll = MediaQuery.of(context).size.height;
-    final lebarAll = MediaQuery.of(context).size.width;
+
     return Stack(
       children: <Widget>[
         Container(
