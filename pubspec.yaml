@@ -26,8 +26,10 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
+  url_launcher: ^6.0.18
   flutter_svg: ^1.1.1+1
   google_fonts: ^3.0.1
+  syncfusion_flutter_pdfviewer: ^20.2.43-beta
   
 
 dev_dependencies:
@@ -44,8 +46,25 @@ flutter:
   uses-material-design: true
 
   assets:
-  - assets/images/
-  - assets/svg/
+       - assets/images/logo.png
+       - assets/images/home_bg.png
+       - assets/images/home_bg.jpg
+       - assets/images/home_image1.jpg
+       - assets/images/logo.png
+       - assets/images/logo1.png
+       - assets/images/img_speaking1.jpg
+       - assets/images/img_speaking2.jpg
+       - assets/images/img_speaking3.jpg
+       - assets/images/img_speaking4.jpg
+       - assets/images/img_speaking5.jpg
+       - assets/images/img_speaking6.jpg
+       - assets/images/img_speaking7.jpg
+       - assets/pdf/langfoc1.pdf
+       - assets/pdf/listening1.pdf
+       - assets/pdf/reading1.pdf
+       - assets/pdf/speaking1.pdf
+       - assets/pdf/writing1.pdf
+ 
  
   fonts:
       - family: Montserrat Regular

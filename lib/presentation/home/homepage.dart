@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:molefocs/presentation/home/home_langfoc/langfoc_home.dart';
+import 'package:molefocs/presentation/home/home_listening/listening_home.dart';
+import 'package:molefocs/presentation/home/home_reading/reading_home.dart';
+import 'package:molefocs/presentation/home/home_writing/writing_home.dart';
 import 'package:molefocs/presentation/widgets/header_widget.dart';
 import 'package:molefocs/presentation/widgets/information_widget.dart';
-import 'package:molefocs/presentation/widgets/titleandsubtitle_widget.dart';
+import 'package:molefocs/presentation/widgets/title_langfoc_widget.dart';
+import 'package:molefocs/presentation/widgets/title_listening_widget.dart';
+import 'package:molefocs/presentation/widgets/title_reading_widget.dart';
+import 'package:molefocs/presentation/widgets/title_speaking_widget.dart';
+import 'package:molefocs/presentation/widgets/title_writing_widget.dart';
 
-import '../widgets/cardmenu_widget.dart';
+import 'home_speaking/speaking_home.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -15,22 +23,25 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    final tinggiAll = MediaQuery.of(context).size.height;
-
     return Scaffold(
-      body: Column(
-        children: <Widget>[
-          const HeaderWidget(),
-          const InformationWidget(),
-          const TitleAndSubtitle(),
-          SizedBox(
-            height: tinggiAll * 0.48,
-            child: ListView(
-              physics: const ClampingScrollPhysics(),
-              children: const <Widget>[CardMenuWidget()],
-            ),
-          )
-        ],
+      body: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Column(
+          children: const <Widget>[
+            HeaderWidget(),
+            InformationWidget(),
+            TitleSpeaking(),
+            SpeakingHome(),
+            TitleReading(),
+            ReadingHome(),
+            TitleListening(),
+            ListeningHome(),
+            TitleLangfoc(),
+            LangfocHome(),
+            TitleWriting(),
+            WritingHome()
+          ],
+        ),
       ),
     );
   }

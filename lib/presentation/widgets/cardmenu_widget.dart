@@ -1,7 +1,4 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:molefocs/presentation/home/unit1/unit1page.dart';
 
 class CardMenuWidget extends StatelessWidget {
   const CardMenuWidget({
@@ -17,12 +14,7 @@ class CardMenuWidget extends StatelessWidget {
           child: SizedBox(
               height: tinggiAll * 0.16,
               child: GestureDetector(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const Unit1Page()));
-                },
+                onTap: () {},
                 child: Card(
                   child: Container(
                     decoration: const BoxDecoration(
