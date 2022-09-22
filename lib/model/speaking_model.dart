@@ -19,17 +19,17 @@ List<Speaking> spk = [
   Speaking(
     name: "Go Beyond Computer Essentials",
     image: "assets/images/img_speaking2.jpg",
-    desc: "assets/pdf/speaking1.pdf",
+    desc: "assets/pdf/speaking2.pdf",
   ),
   Speaking(
     name: "Inside the System",
     image: "assets/images/img_speaking3.jpg",
-    desc: "assets/pdf/speaking1.pdf",
+    desc: "assets/pdf/speaking3.pdf",
   ),
   Speaking(
     name: "You Must Know Basic Software",
     image: "assets/images/img_speaking4.jpg",
-    desc: "assets/pdf/speaking1.pdf",
+    desc: "assets/pdf/speaking4.pdf",
   ),
   Speaking(
     name: "Keep In Touch with The Internet",

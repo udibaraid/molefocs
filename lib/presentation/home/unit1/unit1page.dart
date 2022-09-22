@@ -15,7 +15,7 @@ class _Unit1PageState extends State<Unit1Page> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: const <Widget>[HeaderWidget()],
+        children: const <Widget>[HeaderWidget(),],
       ),
     );
   }
