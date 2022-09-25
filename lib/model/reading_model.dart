@@ -24,22 +24,22 @@ List<Reading> rdg = [
   Reading(
     name: "Inside the System",
     image: "assets/images/home_image1.jpg",
-    desc: "assets/pdf/reading1.pdf",
+    desc: "assets/pdf/reading3.pdf",
   ),
   Reading(
     name: "You Must Know Basic Software",
     image: "assets/images/home_image1.jpg",
-    desc: "assets/pdf/reading1.pdf",
+    desc: "assets/pdf/reading4.pdf",
   ),
   Reading(
     name: "Keep In Touch with The Internet",
     image: "assets/images/home_image1.jpg",
-    desc: "assets/pdf/reading1.pdf",
+    desc: "assets/pdf/reading5.pdf",
   ),
   Reading(
     name: "Network",
     image: "assets/images/home_image1.jpg",
-    desc: "assets/pdf/reading1.pdf",
+    desc: "assets/pdf/reading6.pdf",
   ),
   Reading(
     name: "Let’s go to Bright Future in IT Jobs",
