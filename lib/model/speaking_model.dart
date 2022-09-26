@@ -34,16 +34,16 @@ List<Speaking> spk = [
   Speaking(
     name: "Keep In Touch with The Internet",
     image: "assets/images/img_speaking5.jpg",
-    desc: "assets/pdf/speaking1.pdf",
+    desc: "assets/pdf/speaking5.pdf",
   ),
   Speaking(
     name: "Network",
     image: "assets/images/img_speaking6.jpg",
-    desc: "assets/pdf/speaking1.pdf",
+    desc: "assets/pdf/speaking6.pdf",
   ),
   Speaking(
     name: "Let’s go to Bright Future in IT Jobs",
     image: "assets/images/img_speaking7.jpg",
-    desc: "assets/pdf/speaking1.pdf",
+    desc: "assets/pdf/speaking7.pdf",
   ),
 ];

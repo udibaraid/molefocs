@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:molefocs/model/reading_model.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
-class SpeakingDetail extends StatefulWidget {
+class ReadingDetail extends StatefulWidget {
   final int index1;
-  const SpeakingDetail({Key? key, required this.index1}) : super(key: key);
+  const ReadingDetail({Key? key, required this.index1}) : super(key: key);
 
   @override
-  State<SpeakingDetail> createState() => _SpeakingDetailState();
+  State<ReadingDetail> createState() => _ReadingDetailState();
 }
 
-class _SpeakingDetailState extends State<SpeakingDetail> {
+class _ReadingDetailState extends State<ReadingDetail> {
   @override
   Widget build(BuildContext context) {
     final tinggiAll = MediaQuery.of(context).size.height;

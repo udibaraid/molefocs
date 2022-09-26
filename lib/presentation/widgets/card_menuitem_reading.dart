@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:molefocs/model/reading_model.dart';
 
-import '../home/home_speaking/speaking_detail.dart';
+import '../home/home_reading/reading_detail.dart';
 
 class ReadingMenuItemCard extends StatefulWidget {
   final int index1;
@@ -24,12 +24,12 @@ class _ReadingMenuItemCardState extends State<ReadingMenuItemCard> {
           Navigator.push(
               context,
               MaterialPageRoute(
-                  builder: (context) => SpeakingDetail(index1: widget.index1)));
+                  builder: (context) => ReadingDetail(index1: widget.index1)));
         },
         child: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-                colors: [Colors.lightGreenAccent, Colors.lightBlue],
+                colors: [Color.fromARGB(255, 89, 255, 164), Colors.lightBlue],
                 begin: Alignment.centerLeft,
                 end: Alignment.centerRight),
             borderRadius: BorderRadius.all(Radius.circular(20)),

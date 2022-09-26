@@ -17,7 +17,7 @@ List<Reading> rdg = [
     desc: "assets/pdf/reading1.pdf",
   ),
   Reading(
-    name: " Go Beyond Computer Essentials",
+    name: "Go Beyond Computer Essentials",
     image: "assets/images/home_image1.jpg",
     desc: "assets/pdf/reading1.pdf",
   ),

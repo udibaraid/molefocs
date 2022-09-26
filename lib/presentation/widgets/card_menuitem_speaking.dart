@@ -28,10 +28,10 @@ class _SpeakingMenuItemCardState extends State<SpeakingMenuItemCard> {
         },
         child: Container(
           decoration: const BoxDecoration(
-            gradient: LinearGradient(colors: [
-              Colors.lightGreenAccent,
-              Color.fromARGB(255, 150, 29, 187)
-            ], begin: Alignment.centerLeft, end: Alignment.centerRight),
+            gradient: LinearGradient(
+                colors: [Color.fromARGB(255, 255, 197, 89), Colors.lightBlue],
+                begin: Alignment.centerLeft,
+                end: Alignment.centerRight),
             borderRadius: BorderRadius.all(Radius.circular(20)),
           ),
           child: AspectRatio(
