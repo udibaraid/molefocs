@@ -13,9 +13,9 @@ class SpeakingHome extends StatefulWidget {
 class _SpeakingHomeState extends State<SpeakingHome> {
   @override
   Widget build(BuildContext context) {
-    final tinggiAll = MediaQuery.of(context).size.height;
-    return SizedBox(
-      height: tinggiAll * 0.18,
+    return Container(
+      margin: const EdgeInsets.only(left: 10),
+      height: 200,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: spk.length,

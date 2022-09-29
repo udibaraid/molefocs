@@ -51,6 +51,11 @@ flutter:
        - assets/images/home_bg.jpg
        - assets/images/home_image1.jpg
        - assets/images/logo.png
+       - assets/images/icons_focus.png
+       - assets/images/icons_listening.png
+       - assets/images/icons_reading.png
+       - assets/images/icons_speaking.png
+       - assets/images/icons_writing.png
        - assets/images/logo1.png
        - assets/images/img_speaking1.jpg
        - assets/images/img_speaking2.jpg

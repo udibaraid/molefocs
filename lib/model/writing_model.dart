@@ -13,37 +13,37 @@ class Writing {
 List<Writing> wrt = [
   Writing(
     name: "Introduce Yourself to Digital World!",
-    image: "assets/images/home_image1.jpg",
+    image: "assets/images/img_speaking1.jpg",
     desc: "assets/pdf/writing1.pdf",
   ),
   Writing(
     name: " Go Beyond Computer Essentials",
-    image: "assets/images/home_image1.jpg",
+    image: "assets/images/img_speaking2.jpg",
     desc: "assets/pdf/writing1.pdf",
   ),
   Writing(
     name: "Inside the System",
-    image: "assets/images/home_image1.jpg",
+    image: "assets/images/img_speaking3.jpg",
     desc: "assets/pdf/writing1.pdf",
   ),
   Writing(
     name: "You Must Know Basic Software",
-    image: "assets/images/home_image1.jpg",
+    image: "assets/images/img_speaking4.jpg",
     desc: "assets/pdf/writing1.pdf",
   ),
   Writing(
     name: "Keep In Touch with The Internet",
-    image: "assets/images/home_image1.jpg",
+    image: "assets/images/img_speaking5.jpg",
     desc: "assets/pdf/writing1.pdf",
   ),
   Writing(
     name: "Network",
-    image: "assets/images/home_image1.jpg",
+    image: "assets/images/img_speaking6.jpg",
     desc: "assets/pdf/writing1.pdf",
   ),
   Writing(
     name: "Let’s go to Bright Future in IT Jobs",
-    image: "assets/images/home_image1.jpg",
+    image: "assets/images/img_speaking7.jpg",
     desc: "assets/pdf/writing1.pdf",
   ),
 ];
