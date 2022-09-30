@@ -17,7 +17,7 @@ List<Writing> wrt = [
     desc: "assets/pdf/writing1.pdf",
   ),
   Writing(
-    name: " Go Beyond Computer Essentials",
+    name: "Go Beyond Computer Essentials",
     image: "assets/images/img_speaking2.jpg",
     desc: "assets/pdf/writing1.pdf",
   ),

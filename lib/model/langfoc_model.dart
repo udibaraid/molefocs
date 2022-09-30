@@ -17,7 +17,7 @@ List<Langfoc> lfc = [
     desc: "assets/pdf/langfoc1.pdf",
   ),
   Langfoc(
-    name: " Go Beyond Computer Essentials",
+    name: "Go Beyond Computer Essentials",
     image: "assets/images/img_speaking2.jpg",
     desc: "assets/pdf/langfoc1.pdf",
   ),

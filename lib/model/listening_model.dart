@@ -17,7 +17,7 @@ List<Listening> lst = [
     desc: "assets/pdf/listening1.pdf",
   ),
   Listening(
-    name: " Go Beyond Computer Essentials",
+    name: "Go Beyond Computer Essentials",
     image: "assets/images/img_speaking2.jpg",
     desc: "assets/pdf/listening2.pdf",
   ),

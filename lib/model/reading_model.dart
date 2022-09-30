@@ -43,12 +43,7 @@ List<Reading> rdg = [
   ),
   Reading(
     name: "Let’s go to Bright Future in IT Jobs",
-<<<<<<< HEAD
     image: "assets/images/img_speaking7.jpg",
     desc: "assets/pdf/reading1.pdf",
-=======
-    image: "assets/images/home_img_speaking7.jpg",
-    desc: "assets/pdf/reading7.pdf",
->>>>>>> 8458b59cf167ed4014b6a95589ae211051192911
   ),
 ];
