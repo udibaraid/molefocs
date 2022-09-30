@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:molefocs/presentation/home/home_langfoc/langfoc_home.dart';
 import 'package:molefocs/presentation/home/home_listening/listening_home.dart';
 import 'package:molefocs/presentation/home/home_reading/reading_home.dart';
@@ -23,6 +24,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
+    WidgetsFlutterBinding.ensureInitialized();
+    SystemChrome.setPreferredOrientations(
+        [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
     return Scaffold(
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
