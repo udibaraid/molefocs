@@ -47,7 +47,7 @@ class _ReadingMenuItemCardState extends State<ReadingMenuItemCard> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      "Speaking",
+                      "Reading",
                       style: TextStyle(
                           fontSize: 12,
                           fontWeight: FontWeight.w600,
@@ -61,7 +61,7 @@ class _ReadingMenuItemCardState extends State<ReadingMenuItemCard> {
                       rdg[widget.index1].name,
                       style: const TextStyle(
                         fontFamily: "OpenSans Bold",
-                        fontSize: 14,
+                        fontSize: 12,
                       ),
                     )
                   ],

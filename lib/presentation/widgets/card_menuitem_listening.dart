@@ -49,7 +49,7 @@ class _ListeningMenuItemCardState extends State<ListeningMenuItemCard> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      "Speaking",
+                      "Listening",
                       style: TextStyle(
                           fontSize: 12,
                           fontWeight: FontWeight.w600,
@@ -63,7 +63,7 @@ class _ListeningMenuItemCardState extends State<ListeningMenuItemCard> {
                       lst[widget.index1].name,
                       style: const TextStyle(
                         fontFamily: "OpenSans Bold",
-                        fontSize: 14,
+                        fontSize: 12,
                       ),
                     )
                   ],

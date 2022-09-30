@@ -35,24 +35,24 @@ class InformationWidget extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: RichText(
                 text: const TextSpan(
-                    text: "Fine a",
+                    text: "Explore English",
                     style: TextStyle(
                         fontFamily: "OpenSans Regular",
                         color: Colors.white,
-                        fontSize: 16),
+                        fontSize: 14),
                     children: [
                   TextSpan(
-                      text: " Molefocs \nLet's ",
+                      text: "\nfor Computer  with",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontFamily: "OpenSans Reguler",
+                          fontSize: 14)),
+                  TextSpan(
+                      text: "\nMoleFocs",
                       style: TextStyle(
                           color: Colors.white,
                           fontFamily: "OpenSans Bold",
                           fontSize: 16)),
-                  TextSpan(
-                      text: "study together",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontFamily: "OpenSans Reguler",
-                          fontSize: 14))
                 ])),
           ),
         )

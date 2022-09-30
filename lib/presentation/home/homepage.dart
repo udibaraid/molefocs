@@ -26,21 +26,27 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
-        child: Column(
-          children: const <Widget>[
-            HeaderWidget(),
-            InformationWidget(),
-            TitleSpeaking(),
-            SpeakingHome(),
-            TitleReading(),
-            ReadingHome(),
-            TitleListening(),
-            ListeningHome(),
-            TitleLangfoc(),
-            LangfocHome(),
-            TitleWriting(),
-            WritingHome()
-          ],
+        child: Container(
+          color: Colors.white10,
+          child: Column(
+            children: const <Widget>[
+              HeaderWidget(),
+              InformationWidget(),
+              TitleSpeaking(),
+              SpeakingHome(),
+              TitleReading(),
+              ReadingHome(),
+              TitleListening(),
+              ListeningHome(),
+              TitleLangfoc(),
+              LangfocHome(),
+              TitleWriting(),
+              WritingHome(),
+              SizedBox(
+                height: 10.0,
+              )
+            ],
+          ),
         ),
       ),
     );

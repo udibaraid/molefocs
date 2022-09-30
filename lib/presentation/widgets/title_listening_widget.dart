@@ -28,13 +28,13 @@ class TitleListening extends StatelessWidget {
                       style: TextStyle(
                           fontFamily: "OpenSans Bold",
                           color: Colors.black,
-                          fontSize: 18),
+                          fontSize: 16),
                     ),
                     SizedBox(
                       height: 2.0,
                     ),
                     Text(
-                      "Listening material with molefocs",
+                      "Focus and Fill your Mind with Vocabs",
                       style: TextStyle(
                           fontFamily: "OpenSans Reguler",
                           color: Colors.black54,

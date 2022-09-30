@@ -17,7 +17,7 @@ class _SpeakingMenuItemCardState extends State<SpeakingMenuItemCard> {
   Widget build(BuildContext context) {
     return Container(
       width: 200,
-      margin: const EdgeInsets.only(right: 20),
+      margin: const EdgeInsets.only(right: 10),
       child: GestureDetector(
         onTap: () {
           Navigator.push(
@@ -61,7 +61,7 @@ class _SpeakingMenuItemCardState extends State<SpeakingMenuItemCard> {
                       spk[widget.index1].name,
                       style: const TextStyle(
                         fontFamily: "OpenSans Bold",
-                        fontSize: 14,
+                        fontSize: 12,
                       ),
                     )
                   ],

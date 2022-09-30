@@ -24,17 +24,17 @@ class TitleLangfoc extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const <Widget>[
                     Text(
-                      "Languange Fokus",
+                      "Languange Focus",
                       style: TextStyle(
                           fontFamily: "OpenSans Bold",
                           color: Colors.black,
-                          fontSize: 18),
+                          fontSize: 16),
                     ),
                     SizedBox(
                       height: 2.0,
                     ),
                     Text(
-                      "Languange Fokus material with molefocs",
+                      "Feel the Rythm of Language System",
                       style: TextStyle(
                           fontFamily: "OpenSans Reguler",
                           color: Colors.black54,

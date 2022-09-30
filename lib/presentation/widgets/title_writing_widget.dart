@@ -28,13 +28,13 @@ class TitleWriting extends StatelessWidget {
                       style: TextStyle(
                           fontFamily: "OpenSans Bold",
                           color: Colors.black,
-                          fontSize: 18),
+                          fontSize: 16),
                     ),
                     SizedBox(
                       height: 2.0,
                     ),
                     Text(
-                      "Writing material with molefocs",
+                      "Feel Free to Dance your Finger with Letters",
                       style: TextStyle(
                           fontFamily: "OpenSans Reguler",
                           color: Colors.black54,

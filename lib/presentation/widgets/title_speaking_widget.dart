@@ -28,13 +28,13 @@ class TitleSpeaking extends StatelessWidget {
                       style: TextStyle(
                           fontFamily: "OpenSans Bold",
                           color: Colors.black,
-                          fontSize: 18),
+                          fontSize: 16),
                     ),
                     SizedBox(
                       height: 2.0,
                     ),
                     Text(
-                      "Speaking material with molefocs",
+                      "Don't afraid to make mistake",
                       style: TextStyle(
                           fontFamily: "OpenSans Reguler",
                           color: Colors.black54,
