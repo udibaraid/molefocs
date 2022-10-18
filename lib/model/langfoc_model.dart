@@ -19,31 +19,31 @@ List<Langfoc> lfc = [
   Langfoc(
     name: "Go Beyond Computer Essentials",
     image: "assets/images/img_speaking2.jpg",
-    desc: "assets/pdf/langfoc1.pdf",
+    desc: "assets/pdf/langfoc2.pdf",
   ),
   Langfoc(
     name: "Inside the System",
     image: "assets/images/img_speaking3.jpg",
-    desc: "assets/pdf/langfoc1.pdf",
+    desc: "assets/pdf/langfoc3.pdf",
   ),
   Langfoc(
     name: "You Must Know Basic Software",
     image: "assets/images/img_speaking4.jpg",
-    desc: "assets/pdf/langfoc1.pdf",
+    desc: "assets/pdf/langfoc4.pdf",
   ),
   Langfoc(
     name: "Keep In Touch with The Internet",
     image: "assets/images/img_speaking5.jpg",
-    desc: "assets/pdf/langfoc1.pdf",
+    desc: "assets/pdf/langfoc5.pdf",
   ),
   Langfoc(
     name: "Network",
     image: "assets/images/img_speaking6.jpg",
-    desc: "assets/pdf/langfoc1.pdf",
+    desc: "assets/pdf/langfoc6.pdf",
   ),
   Langfoc(
     name: "Let’s go to Bright Future in IT Jobs",
     image: "assets/images/img_speaking7.jpg",
-    desc: "assets/pdf/langfoc1.pdf",
+    desc: "assets/pdf/langfoc7.pdf",
   ),
 ];

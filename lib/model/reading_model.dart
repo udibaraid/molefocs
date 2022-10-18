@@ -44,6 +44,6 @@ List<Reading> rdg = [
   Reading(
     name: "Let’s go to Bright Future in IT Jobs",
     image: "assets/images/img_speaking7.jpg",
-    desc: "assets/pdf/reading1.pdf",
+    desc: "assets/pdf/reading7.pdf",
   ),
 ];

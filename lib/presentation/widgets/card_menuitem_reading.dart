@@ -61,7 +61,7 @@ class _ReadingMenuItemCardState extends State<ReadingMenuItemCard> {
                       rdg[widget.index1].name,
                       style: const TextStyle(
                         fontFamily: "OpenSans Bold",
-                        fontSize: 12,
+                        fontSize: 14,
                       ),
                     )
                   ],

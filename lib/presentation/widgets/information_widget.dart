@@ -29,7 +29,7 @@ class InformationWidget extends StatelessWidget {
           ),
         ),
         Positioned(
-          bottom: 60,
+          bottom: 40,
           left: 30,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
@@ -52,7 +52,7 @@ class InformationWidget extends StatelessWidget {
                       style: TextStyle(
                           color: Colors.white,
                           fontFamily: "OpenSans Bold",
-                          fontSize: 16)),
+                          fontSize: 20)),
                 ])),
           ),
         )

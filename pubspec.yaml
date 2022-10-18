@@ -65,6 +65,12 @@ flutter:
        - assets/images/img_speaking6.jpg
        - assets/images/img_speaking7.jpg
        - assets/pdf/langfoc1.pdf
+       - assets/pdf/langfoc2.pdf
+       - assets/pdf/langfoc3.pdf
+       - assets/pdf/langfoc4.pdf
+       - assets/pdf/langfoc5.pdf
+       - assets/pdf/langfoc6.pdf
+       - assets/pdf/langfoc7.pdf
        - assets/pdf/listening1.pdf
        - assets/pdf/listening2.pdf
        - assets/pdf/listening3.pdf
@@ -87,6 +93,12 @@ flutter:
        - assets/pdf/speaking6.pdf
        - assets/pdf/speaking7.pdf
        - assets/pdf/writing1.pdf
+       - assets/pdf/writing2.pdf
+       - assets/pdf/writing3.pdf
+       - assets/pdf/writing4.pdf
+       - assets/pdf/writing5.pdf
+       - assets/pdf/writing6.pdf
+       - assets/pdf/writing7.pdf
  
  
   fonts:
