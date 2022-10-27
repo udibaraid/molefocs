@@ -78,6 +78,13 @@ flutter:
        - assets/pdf/listening5.pdf
        - assets/pdf/listening6.pdf
        - assets/pdf/listening7.pdf
+       - assets/audio/unit_1.mp3
+       - assets/audio/unit_2.mp3
+       - assets/audio/unit_3.mp3
+       - assets/audio/unit_4.mp3
+       - assets/audio/unit_5.mp3
+       - assets/audio/unit_6.mp3
+       - assets/audio/unit_7.mp3
        - assets/pdf/reading1.pdf
        - assets/pdf/reading2.pdf
        - assets/pdf/reading3.pdf
