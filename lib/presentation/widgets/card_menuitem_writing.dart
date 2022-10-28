@@ -60,7 +60,7 @@ class _WritingMenuItemCardState extends State<WritingMenuItemCard> {
                       wrt[widget.index1].name,
                       style: const TextStyle(
                         fontFamily: "OpenSans Bold",
-                        fontSize: 12,
+                        fontSize: 14,
                       ),
                     )
                   ],

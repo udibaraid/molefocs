@@ -24,12 +24,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   cupertino_icons: ^1.0.2
   url_launcher: ^6.0.18
   flutter_svg: ^1.1.1+1
   google_fonts: ^3.0.1
-  syncfusion_flutter_pdfviewer: ^20.2.43-beta
+  syncfusion_flutter_pdfviewer: ^20.3.52
   
 
 dev_dependencies:
@@ -46,21 +45,49 @@ flutter:
   uses-material-design: true
 
   assets:
-       - assets/images/logo.png
        - assets/images/home_bg.png
        - assets/images/home_bg.jpg
        - assets/images/home_image1.jpg
        - assets/images/logo.png
+       - assets/icons/logo1.png
        - assets/images/icons_focus.png
        - assets/images/icons_listening.png
        - assets/images/icons_reading.png
        - assets/images/icons_speaking.png
        - assets/images/icons_writing.png
        - assets/images/logo1.png
+       - assets/images/img_language1.jpg
+       - assets/images/img_language2.jpg
+       - assets/images/img_language3.jpg
+       - assets/images/img_language4.jpg
+       - assets/images/img_language5.png
+       - assets/images/img_language6.jpg
+       - assets/images/img_language7.jpg
+       - assets/images/img_listening1.jpg
+       - assets/images/img_listening2.jpg
+       - assets/images/img_listening3.jpg
+       - assets/images/img_listening4.jpg
+       - assets/images/img_listening5.jpg
+       - assets/images/img_listening6.jpg
+       - assets/images/img_listening7.jpg
+       - assets/images/img_reading1.jpg
+       - assets/images/img_reading2.jpg
+       - assets/images/img_reading3.jpg
+       - assets/images/img_reading4.png
+       - assets/images/img_reading5.png
+       - assets/images/img_reading6.jpg
+       - assets/images/img_reading7.jpg
+       - assets/images/img_writing1.jpg
+       - assets/images/img_writing2.jpg
+       - assets/images/img_writing3.jpg
+       - assets/images/img_writing4.jpg
+       - assets/images/img_writing5.jpg
+       - assets/images/img_writing6.jpg
+       - assets/images/img_writing7.jpg
        - assets/images/img_speaking1.jpg
-       - assets/images/img_speaking2.jpg
+       - assets/images/img_speaking2.png
        - assets/images/img_speaking3.jpg
-       - assets/images/img_speaking4.jpg
+       - assets/images/img_speaking4.png
        - assets/images/img_speaking5.jpg
        - assets/images/img_speaking6.jpg
        - assets/images/img_speaking7.jpg
