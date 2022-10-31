@@ -20,6 +20,7 @@ class _ReadingDetailState extends State<ReadingDetail> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.white,
         drawer: const NavBar(),
         appBar: AppBar(
           title: const Text(

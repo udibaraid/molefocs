@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:molefocs/model/listening_model.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 import '../../widgets/navbar.dart';
 
@@ -20,8 +21,10 @@ class _ListeningDetailState extends State<ListeningDetail> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.white,
         drawer: const NavBar(),
         appBar: AppBar(
+          centerTitle: true,
           title: const Text(
             'Listening',
             style: TextStyle(
@@ -31,6 +34,12 @@ class _ListeningDetailState extends State<ListeningDetail> {
                 color: Colors.white),
           ),
           actions: [
+            IconButton(
+                onPressed: () async {
+                  final player = AudioCache();
+                  player.play(lst[widget.index1].audio);
+                },
+                icon: const Icon(Icons.play_arrow)),
             IconButton(
                 onPressed: () {
                   Navigator.pop(context);
@@ -45,10 +54,11 @@ class _ListeningDetailState extends State<ListeningDetail> {
                     end: FractionalOffset.bottomRight)),
           ),
         ),
-        body: SizedBox(
-            width: lebarAll,
-            height: tinggiAll,
-            child: SfPdfViewer.asset(lst[widget.index1].desc)),
+        body: Container(
+          width: lebarAll,
+          height: tinggiAll * 0.9,
+          child: SfPdfViewer.asset(lst[widget.index1].desc),
+        ),
       ),
     );
   }

@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       drawer: const NavBar(),
       appBar: AppBar(
+        centerTitle: true,
         title: const Text(
           'Home',
           style: TextStyle(

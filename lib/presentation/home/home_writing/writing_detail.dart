@@ -20,6 +20,7 @@ class _WritingDetailState extends State<WritingDetail> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.white,
         drawer: const NavBar(),
         appBar: AppBar(
           title: const Text(

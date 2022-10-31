@@ -20,6 +20,7 @@ class _LangfocDetailState extends State<LangfocDetail> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.white,
         drawer: const NavBar(),
         appBar: AppBar(
           title: const Text(
