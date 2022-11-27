@@ -35,13 +35,17 @@ class _SplashPageState extends State<SplashPage> {
       body: Container(
         height: tinggiAll,
         width: lebarAll,
-        color: AppColor.warnaBiru,
+        decoration: const BoxDecoration(
+            gradient: LinearGradient(
+                colors: [Color(0xff0096ff), Color(0xff6610f2)],
+                begin: FractionalOffset.topLeft,
+                end: FractionalOffset.bottomRight)),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Image.asset(
-              "assets/images/logo.png",
+              'assets/images/logo_molefocs.png',
               width: 70,
               height: 70,
             ),

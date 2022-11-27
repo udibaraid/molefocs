@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:molefocs/model/listening_model.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
-import 'package:audioplayers/audioplayers.dart';
 
-import '../../widgets/navbar.dart';
+import '../menu_navbar/menu_navbar.dart';
 
 class ListeningDetail extends StatefulWidget {
   final int index1;
@@ -35,11 +34,7 @@ class _ListeningDetailState extends State<ListeningDetail> {
           ),
           actions: [
             IconButton(
-                onPressed: () async {
-                  final player = AudioCache();
-                  player.play(lst[widget.index1].audio);
-                },
-                icon: const Icon(Icons.play_arrow)),
+                onPressed: () async {}, icon: const Icon(Icons.play_arrow)),
             IconButton(
                 onPressed: () {
                   Navigator.pop(context);
@@ -54,7 +49,7 @@ class _ListeningDetailState extends State<ListeningDetail> {
                     end: FractionalOffset.bottomRight)),
           ),
         ),
-        body: Container(
+        body: SizedBox(
           width: lebarAll,
           height: tinggiAll * 0.9,
           child: SfPdfViewer.asset(lst[widget.index1].desc),

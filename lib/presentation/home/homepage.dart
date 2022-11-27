@@ -12,7 +12,7 @@ import 'package:molefocs/presentation/widgets/title_writing_widget.dart';
 
 import '../widgets/title_speaking_widget.dart';
 import 'home_reading/reading_home.dart';
-import '../widgets/navbar.dart';
+import 'menu_navbar/menu_navbar.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -41,8 +41,8 @@ class _HomePageState extends State<HomePage> {
         ),
         actions: [
           Image.asset(
-            'assets/images/logo.png',
-            scale: 80,
+            'assets/images/logo_molefocs.png',
+            scale: 50,
           )
         ],
         flexibleSpace: Container(

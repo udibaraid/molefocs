@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:molefocs/presentation/home/menu_navbar/about_us/about_us.dart';
+import 'package:molefocs/presentation/home/menu_navbar/reference/reference.dart';
+import 'package:molefocs/presentation/home/menu_navbar/term_final/final_screen.dart';
+import 'package:molefocs/presentation/home/menu_navbar/term_mid/mid_screen.dart';
+import 'package:molefocs/presentation/home/menu_navbar/user_guides/user_guides.dart';
 
 class NavBar extends StatelessWidget {
   const NavBar({Key? key}) : super(key: key);
@@ -16,7 +21,7 @@ class NavBar extends StatelessWidget {
             currentAccountPicture: CircleAvatar(
               child: ClipOval(
                 child: Image.asset(
-                  'assets/images/logo.png',
+                  'assets/images/logo_molefocs1.png',
                   width: 90,
                   height: 90,
                   fit: BoxFit.cover,
@@ -32,28 +37,35 @@ class NavBar extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.book),
             title: const Text('User Guide'),
-            onTap: () => null,
+            onTap: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const userGuides())),
           ),
           ListTile(
             leading: const Icon(Icons.description),
             title: const Text('About us'),
-            onTap: () => null,
+            onTap: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const aboutUs())),
           ),
           ListTile(
             leading: const Icon(Icons.bookmark),
             title: const Text('Reference'),
-            onTap: () => null,
+            onTap: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const reference())),
           ),
           const Divider(),
           ListTile(
             leading: const Icon(Icons.quiz),
-            title: const Text('Exercise'),
-            onTap: () => null,
+            title: const Text('Mid Term Review'),
+            onTap: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const midTermReview())),
           ),
           ListTile(
             leading: const Icon(Icons.quiz),
-            title: const Text('Final Exam'),
-            onTap: () => null,
+            title: const Text('Final Term Review'),
+            onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => const finalTermReview())),
           ),
           const Divider(),
           ListTile(

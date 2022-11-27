@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 import '../../../model/writing_model.dart';
-import '../../widgets/navbar.dart';
+import '../menu_navbar/menu_navbar.dart';
 
 class WritingDetail extends StatefulWidget {
   final int index1;

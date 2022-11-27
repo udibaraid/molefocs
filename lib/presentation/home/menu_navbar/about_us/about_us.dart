@@ -1,18 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:molefocs/model/reading_model.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
-import '../menu_navbar/menu_navbar.dart';
+import '../menu_navbar.dart';
 
-class ReadingDetail extends StatefulWidget {
-  final int index1;
-  const ReadingDetail({Key? key, required this.index1}) : super(key: key);
+class aboutUs extends StatefulWidget {
+  const aboutUs({super.key});
 
   @override
-  State<ReadingDetail> createState() => _ReadingDetailState();
+  State<aboutUs> createState() => _aboutUsState();
 }
 
-class _ReadingDetailState extends State<ReadingDetail> {
+class _aboutUsState extends State<aboutUs> {
   @override
   Widget build(BuildContext context) {
     final tinggiAll = MediaQuery.of(context).size.height;
@@ -24,7 +22,7 @@ class _ReadingDetailState extends State<ReadingDetail> {
         drawer: const NavBar(),
         appBar: AppBar(
           title: const Text(
-            'Reading',
+            'About Us',
             style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
@@ -49,7 +47,7 @@ class _ReadingDetailState extends State<ReadingDetail> {
         body: SizedBox(
             width: lebarAll,
             height: tinggiAll,
-            child: SfPdfViewer.asset(rdg[widget.index1].desc)),
+            child: SfPdfViewer.asset("assets/pdf/about_molefocs.pdf")),
       ),
     );
   }

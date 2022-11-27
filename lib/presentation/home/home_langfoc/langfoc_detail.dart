@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:molefocs/model/langfoc_model.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
-import '../../widgets/navbar.dart';
+import '../menu_navbar/menu_navbar.dart';
 
 class LangfocDetail extends StatefulWidget {
   final int index1;
