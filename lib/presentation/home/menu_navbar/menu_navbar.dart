@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:molefocs/presentation/home/menu_navbar/about_us/about_us.dart';
 import 'package:molefocs/presentation/home/menu_navbar/reference/reference.dart';
-import 'package:molefocs/presentation/home/menu_navbar/term_final/final_screen.dart';
-import 'package:molefocs/presentation/home/menu_navbar/term_mid/mid_screen.dart';
+import 'package:molefocs/presentation/home/menu_navbar/term_final/final_main.dart';
+import 'package:molefocs/presentation/home/menu_navbar/term_mid/mid_main.dart';
 import 'package:molefocs/presentation/home/menu_navbar/user_guides/user_guides.dart';
 
 class NavBar extends StatelessWidget {
@@ -57,15 +57,13 @@ class NavBar extends StatelessWidget {
             leading: const Icon(Icons.quiz),
             title: const Text('Mid Term Review'),
             onTap: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const midTermReview())),
+                MaterialPageRoute(builder: (context) => const midMain())),
           ),
           ListTile(
             leading: const Icon(Icons.quiz),
             title: const Text('Final Term Review'),
-            onTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => const finalTermReview())),
+            onTap: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => const finalMain())),
           ),
           const Divider(),
           ListTile(

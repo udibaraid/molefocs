@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../style/color.dart';
+import '../menu_navbar.dart';
 import 'mid_hasil.dart';
 import 'mid_question.dart';
 
@@ -31,18 +32,40 @@ class _midTermReviewState extends State<midTermReview> {
     // final lebarLayar = MediaQuery.of(context).size.width;
 
     return Scaffold(
+      drawer: const NavBar(),
       appBar: AppBar(
-        title: const Text("Mid Term Review"),
+        title: const Text(
+          'Mid Term Review',
+          style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+              fontFamily: "OpenSans Bold",
+              color: Colors.white),
+        ),
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: const Icon(Icons.backspace))
+        ],
+        flexibleSpace: Container(
+          decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                  colors: [Color(0xff0096ff), Color(0xff6610f2)],
+                  begin: FractionalOffset.topLeft,
+                  end: FractionalOffset.bottomRight)),
+        ),
       ),
       backgroundColor: AppColor.pripmaryColor,
       body: Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.all(15.0),
           child: PageView.builder(
             controller: _controller!,
             onPageChanged: (page) {
               if (page == questions.length - 1) {
                 setState(() {
-                  btnText = "Lihat Hasil";
+                  btnText = "View Score";
                 });
               }
               setState(() {
@@ -62,7 +85,7 @@ class _midTermReviewState extends State<midTermReview> {
                       textAlign: TextAlign.start,
                       style: const TextStyle(
                         color: Colors.white,
-                        fontSize: 12.0,
+                        fontSize: 14.0,
                       ),
                     ),
                   ),
@@ -70,29 +93,29 @@ class _midTermReviewState extends State<midTermReview> {
                     color: Colors.white,
                   ),
                   const SizedBox(
-                    height: 3.0,
+                    height: 5.0,
                   ),
                   SizedBox(
                     width: double.infinity,
-                    height: tinggiLayar * 0.47,
+                    height: tinggiLayar * 0.25,
                     child: Text(
                       "${questions[index].question}",
                       textAlign: TextAlign.justify,
                       style: const TextStyle(
                         color: Colors.white,
-                        fontSize: 10.0,
+                        fontSize: 14.0,
                       ),
                     ),
                   ),
                   for (int i = 0; i < questions[index].answers!.length; i++)
                     Container(
                       width: double.infinity,
-                      height: tinggiLayar * 0.05,
+                      height: tinggiLayar * 0.09,
                       margin: const EdgeInsets.only(
-                          bottom: 3.0, left: 20.0, right: 20.0),
+                          bottom: 5.0, left: 20.0, right: 15.0),
                       child: RawMaterialButton(
                         shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10.0),
+                          borderRadius: BorderRadius.circular(15.0),
                         ),
                         fillColor: btnPressed
                             ? questions[index].answers!.values.toList()[i]
@@ -117,19 +140,19 @@ class _midTermReviewState extends State<midTermReview> {
                               }
                             : null,
                         child: Padding(
-                          padding: const EdgeInsets.all(2.0),
+                          padding: const EdgeInsets.all(5.0),
                           child: Text(
                               questions[index].answers!.keys.toList()[i],
                               textAlign: TextAlign.center,
                               style: const TextStyle(
                                   fontFamily: 'OpenSans Bold',
                                   color: Colors.white,
-                                  fontSize: 10)),
+                                  fontSize: 12)),
                         ),
                       ),
                     ),
                   const SizedBox(
-                    height: 2.0,
+                    height: 10.0,
                   ),
                   RawMaterialButton(
                     onPressed: () {
@@ -157,7 +180,7 @@ class _midTermReviewState extends State<midTermReview> {
                       style: const TextStyle(
                           fontFamily: 'OpenSans Bold',
                           color: Colors.white,
-                          fontSize: 10),
+                          fontSize: 12),
                     ),
                   )
                 ],

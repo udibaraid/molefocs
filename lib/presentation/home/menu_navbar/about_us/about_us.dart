@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
+import '../../homepage.dart';
 import '../menu_navbar.dart';
 
 class aboutUs extends StatefulWidget {
@@ -24,7 +25,7 @@ class _aboutUsState extends State<aboutUs> {
           title: const Text(
             'About Us',
             style: TextStyle(
-                fontSize: 18,
+                fontSize: 16,
                 fontWeight: FontWeight.w600,
                 fontFamily: "OpenSans Bold",
                 color: Colors.white),
@@ -32,7 +33,10 @@ class _aboutUsState extends State<aboutUs> {
           actions: [
             IconButton(
                 onPressed: () {
-                  Navigator.pop(context);
+                  Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const HomePage()));
                 },
                 icon: const Icon(Icons.backspace))
           ],

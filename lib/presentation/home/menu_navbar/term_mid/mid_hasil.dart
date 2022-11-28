@@ -3,6 +3,7 @@ import 'package:molefocs/presentation/home/menu_navbar/term_mid/mid_screen.dart'
 
 import '../../../style/color.dart';
 import '../../homepage.dart';
+import '../menu_navbar.dart';
 
 class HasilMid extends StatefulWidget {
   int score;
@@ -16,6 +17,31 @@ class _HasilMidState extends State<HasilMid> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const NavBar(),
+      appBar: AppBar(
+        title: const Text(
+          'Score Mid Term Review',
+          style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+              fontFamily: "OpenSans Bold",
+              color: Colors.white),
+        ),
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              icon: const Icon(Icons.backspace))
+        ],
+        flexibleSpace: Container(
+          decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                  colors: [Color(0xff0096ff), Color(0xff6610f2)],
+                  begin: FractionalOffset.topLeft,
+                  end: FractionalOffset.bottomRight)),
+        ),
+      ),
       backgroundColor: AppColor.pripmaryColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -37,7 +63,7 @@ class _HasilMidState extends State<HasilMid> {
             height: 45.0,
           ),
           const Text(
-            "Your value is",
+            "Your score is",
             style: TextStyle(color: Colors.white, fontSize: 34.0),
           ),
           const SizedBox(
@@ -57,7 +83,7 @@ class _HasilMidState extends State<HasilMid> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              TextButton(
+              ElevatedButton(
                 onPressed: () {
                   Navigator.pushReplacement(
                       context,
@@ -66,14 +92,14 @@ class _HasilMidState extends State<HasilMid> {
                       ));
                 },
                 child: const Text(
-                  "Coba Lagi",
+                  "Try again",
                   style: TextStyle(color: Colors.white),
                 ),
               ),
               const SizedBox(
                 width: 20.0,
               ),
-              TextButton(
+              ElevatedButton(
                 onPressed: () {
                   Navigator.pushReplacement(
                       context,

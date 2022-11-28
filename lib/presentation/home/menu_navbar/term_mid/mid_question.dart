@@ -6,96 +6,95 @@ class QuestionMid {
 
 List<QuestionMid> questions = [
   QuestionMid(
-    "The Internet is a global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope, that are linked by a broad array of electronic, wireless and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents of the World Wide Web (WWW) and the infrastructure to support electronic mail \n\nMost traditional communications media including telephone, music, film, and television are reshaped or redefined by the Internet, giving birth to new services such as Voice over Internet Protocol (VoIP) and IPTV. Newspaper, book and other print publishing are adapting to Web site technology, or are reshaped into blogging and web feeds. \n \nThe Internet has enabled or accelerated new forms of human interactions through instant messaging, Internet forums, and social networking. Online shopping has boomed both for major retail outlets and small artisans and traders. Business-to-business and financial services on the Internet affect supply chains across entire industries. \n \nSource:  Brainly.co.id - https://brainly.co.id/tugas/16984626#readmore \n \nA global system of interconnected computer networks using ITP is called ...",
+    "Young people who have grown up with PCs and mobile phones are often called ...",
     {
-      "Router": false,
-      "Websites": false,
-      "Internet": true,
-      "Wifi": false,
+      "Digital Age": false,
+      "Computer Generation": false,
+      "Digital Generation": true,
+      "Computer Age": false,
     },
   ),
   QuestionMid(
-    "The Internet is a global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope, that are linked by a broad array of electronic, wireless and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents of the World Wide Web (WWW) and the infrastructure to support electronic mail \n\nMost traditional communications media including telephone, music, film, and television are reshaped or redefined by the Internet, giving birth to new services such as Voice over Internet Protocol (VoIP) and IPTV. Newspaper, book and other print publishing are adapting to Web site technology, or are reshaped into blogging and web feeds. \n \nThe Internet has enabled or accelerated new forms of human interactions through instant messaging, Internet forums, and social networking. Online shopping has boomed both for major retail outlets and small artisans and traders. Business-to-business and financial services on the Internet affect supply chains across entire industries. \n \nSource:  Brainly.co.id - https://brainly.co.id/tugas/16984626#readmore \n \nThe word (it) in line 2 refers to ...",
+    "These activities  do not show the use of computer at school ...",
     {
-      "Global system": false,
-      "User worldwide": false,
-      "Computer": false,
-      "The internet": true,
+      "To give presentation": false,
+      "To keep records of students and teacher": false,
+      "Enroll for courses": false,
+      "Transfer cash via ATM": true,
     },
   ),
   QuestionMid(
-    "The Internet is a global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope, that are linked by a broad array of electronic, wireless and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents of the World Wide Web (WWW) and the infrastructure to support electronic mail \n\nMost traditional communications media including telephone, music, film, and television are reshaped or redefined by the Internet, giving birth to new services such as Voice over Internet Protocol (VoIP) and IPTV. Newspaper, book and other print publishing are adapting to Web site technology, or are reshaped into blogging and web feeds. \n \nThe Internet has enabled or accelerated new forms of human interactions through instant messaging, Internet forums, and social networking. Online shopping has boomed both for major retail outlets and small artisans and traders. Business-to-business and financial services on the Internet affect supply chains across entire industries. \n \nSource:  Brainly.co.id - https://brainly.co.id/tugas/16984626#readmore \n \nThe most traditional communications media which is not mentioned in the text is ...",
+    "The word (they) in paragraph 4 refers to ...",
     {
-      "Website": true,
-      "Telephone": false,
-      "Music": false,
-      "Television": false,
+      "The banks": false,
+      "The computers": true,
+      "The people": false,
+      "The money": false,
     },
   ),
   QuestionMid(
-    "The Internet is a global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope, that are linked by a broad array of electronic, wireless and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents of the World Wide Web (WWW) and the infrastructure to support electronic mail \n\nMost traditional communications media including telephone, music, film, and television are reshaped or redefined by the Internet, giving birth to new services such as Voice over Internet Protocol (VoIP) and IPTV. Newspaper, book and other print publishing are adapting to Web site technology, or are reshaped into blogging and web feeds. \n \nThe Internet has enabled or accelerated new forms of human interactions through instant messaging, Internet forums, and social networking. Online shopping has boomed both for major retail outlets and small artisans and traders. Business-to-business and financial services on the Internet affect supply chains across entire industries. \n \nSource:  Brainly.co.id - https://brainly.co.id/tugas/16984626#readmore \n \nThe word (accelerated) in paragraph 3 has the same meaning as follow except ...",
+    "The word (carry out) in paragraph 3 means ...",
     {
-      "Hastened": false,
-      "Prompt": false,
-      "Quickened": false,
-      "Decelerate": true,
+      "Execute": true,
+      "Bring": false,
+      "Take": false,
+      "Leave": false,
     },
   ),
   QuestionMid(
-    "The Internet is a global system of interconnected computer networks that use the standard Internet Protocol Suite (TCP/IP) to serve billions of users worldwide. It is a network of networks that consists of millions of private, public, academic, business, and government networks, of local to global scope, that are linked by a broad array of electronic, wireless and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents of the World Wide Web (WWW) and the infrastructure to support electronic mail \n\nMost traditional communications media including telephone, music, film, and television are reshaped or redefined by the Internet, giving birth to new services such as Voice over Internet Protocol (VoIP) and IPTV. Newspaper, book and other print publishing are adapting to Web site technology, or are reshaped into blogging and web feeds. \n \nThe Internet has enabled or accelerated new forms of human interactions through instant messaging, Internet forums, and social networking. Online shopping has boomed both for major retail outlets and small artisans and traders. Business-to-business and financial services on the Internet affect supply chains across entire industries. \n \nSource:  Brainly.co.id - https://brainly.co.id/tugas/16984626#readmore \n \nThis statement are true based on the text, except ...",
+    "This statement are true based on the text, except ...",
     {
-      "The Internet carries a vast range of information resources and services":
+      "Computers store information about the money held by each customer":
           false,
-      "Newspaper, book and other print publishing are adapting to Web site technology, or are reshaped into blogging and web feeds.":
-          false,
-      "The internet has big influence to online shopping.": false,
-      "The Internet has decelerated new forms of human interactions through instant messaging, Internet forums, and social networking. ":
+      "With offline banking clients can easily pay bills and transfer money from the comfort of their homes.":
           true,
+      "Computers can be used to store clients’ information": false,
+      "In banks, computers can carry out transaction in high speed.": false,
     },
   ),
   QuestionMid(
-    "Here are the use of the internet except ...",
+    "Which one of the following sentence is true?",
     {
-      "Email service": false,
-      "Diagnose disesase": true,
-      "Video conferencing": false,
-      "Downloading ": false,
+      "Mainframe is lighter than desktop PC.": false,
+      "CPU is cheaper than USB drive.": false,
+      "Webcam is as small as keyboard": false,
+      "Laptop is more expensive than HDMI cable.": true,
     },
   ),
   QuestionMid(
-    "... modulates and demodulates the data into a digital or an analog signal.",
+    "PC system has two main parts namely ...",
     {
-      "Switch": false,
-      "Gateway": false,
-      "Modem": true,
-      "A hub": false,
+      "CPU and main memory": false,
+      "Software and hardware": true,
+      "Peripherals and Storage": false,
+      "Input and Output Device": false,
     },
   ),
   QuestionMid(
-    "She ... in 2005.",
+    "This following is included as input device ...",
     {
-      "Graduates": false,
-      "Graduate": false,
-      "Graduated": true,
-      "Has gratuated": false,
+      "Printer": false,
+      "Keyboard": true,
+      "Monitor": false,
+      "projector": false,
     },
   ),
   QuestionMid(
-    "Companies want to reach more customers ... they go online.",
+    "This is Mrs. Smith ... daughter is in my class.",
     {
-      "But": false,
-      "So": true,
-      "However": false,
-      "Yet": false,
+      "Who": false,
+      "Whom": false,
+      "Whose": true,
+      "That": false,
     },
   ),
   QuestionMid(
-    "A ... works with companies to build secure computer systems.",
+    "That’s the hotel ... the IT seminar is held.",
     {
-      "Software engineer": false,
-      "Computer security specialist": true,
-      "Help desk technician": false,
-      "Hardware engineer": false,
+      "When": false,
+      "Where": true,
+      "Who": false,
+      "Whom": false,
     },
   ),
 ];

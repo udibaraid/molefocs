@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
+import '../../homepage.dart';
 import '../menu_navbar.dart';
 
 class userGuides extends StatefulWidget {
@@ -22,9 +23,9 @@ class _userGuidesState extends State<userGuides> {
         drawer: const NavBar(),
         appBar: AppBar(
           title: const Text(
-            'About Us',
+            'User Guides',
             style: TextStyle(
-                fontSize: 18,
+                fontSize: 16,
                 fontWeight: FontWeight.w600,
                 fontFamily: "OpenSans Bold",
                 color: Colors.white),
@@ -32,7 +33,10 @@ class _userGuidesState extends State<userGuides> {
           actions: [
             IconButton(
                 onPressed: () {
-                  Navigator.pop(context);
+                  Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const HomePage()));
                 },
                 icon: const Icon(Icons.backspace))
           ],
@@ -47,7 +51,7 @@ class _userGuidesState extends State<userGuides> {
         body: SizedBox(
             width: lebarAll,
             height: tinggiAll,
-            child: SfPdfViewer.asset("assets/pdf/about_molefocs.pdf")),
+            child: SfPdfViewer.asset("assets/pdf/userguides_molefocs.pdf")),
       ),
     );
   }
